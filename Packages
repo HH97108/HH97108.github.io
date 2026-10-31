@@ -159,23 +159,3 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
 
-Package: preferenceloader.top
-Architecture: iphoneos-arm64
-Version: 2.2.8-2
-Section: System
-Maintainer: ProcursusTeam <support@procurs.us>
-Installed-Size: 340
-Provides: preferenceloader (= 2.2.6)
-Depends: mobilesubstrate
-Conflicts: preferenceloader, preferenceloader.rootless, preferenceloader.rootless.top
-Replaces: preferenceloader, preferenceloader.rootless, preferenceloader.rootless.top
-Filename: debs/preferenceloader.top_2.2.8-2_iphoneos-arm64.deb
-Size: 16768
-MD5sum: 85d878f73b910c8a34ebdfb1eccde646
-SHA1: f739a3a71865f33540e71fd98c81e86b0cfc3336
-SHA256: e1713e6097ae0576527a26b6ce728af13b542350feb45a07cf89383b2c78355a
-SHA512: 0011aa9244435e7ad68a38153647f44c157c87deac2eecc93e02a1669917f7398cac19dec77ccb9ad1c96f818e0ade9362a4db9452982eaa2420755b31b07d1e
-Description: load preferences in style
-Author: Dhinak G <dhinak@dhinak.net>
-Name: PreferenceLoader (Top)
-
