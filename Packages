@@ -58,6 +58,106 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.bundleid.png
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.bundleid
 
+Package: cn.zqbb.stopautolaunchapps
+Architecture: iphoneos-arm64e
+Version: 2.5
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 1120
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0)
+Conflicts: zp.stopautolaunchapps
+Filename: debs/cn.zqbb.stopautolaunchapps_2.5_iphoneos-arm64e.deb
+Size: 254952
+MD5sum: 10ecfd412cf9df7f3d643bc574f4a3f2
+SHA1: 2ec33e856e953fcde5347dc9eb831e03acee04ec
+SHA256: 0b7d5c67b6ea9c97cdb34418c21ce47e312ad166465d33fbb5332aaa892d3dfa
+SHA512: 6560c86a53a9a8b2af091ff0cd692249387cf86aee10ecdc50857c35a04771939d0ff320e6cf4cf716ab903ecadf0f154002958b0e243c4b36f84855921718c7
+Description: 别在后台热加载app咯! 
+ - 优点:节约内存,少杀后台.
+Author: zqbb
+Name: Hello 3Q
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
+
+Package: codes.aurora.kayoko
+Architecture: iphoneos-arm64
+Version: 3.6.1
+Section: Tweaks
+Maintainer: Lessica <82flex@gmail.com>
+Installed-Size: 1228
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
+Filename: debs/codes.aurora.kayoko_3.6.1_iphoneos-arm64.deb
+Size: 168054
+MD5sum: 81158d5f14345de589809f7a33d0f576
+SHA1: 8bb416dd0cefc52de30bdc73079a88dcec9c3e03
+SHA256: 84b1baf83ecbad9b6b75c0d0873c4a1f10d396653b7d659f6fe912271754ba60
+SHA512: dd32e49238a3e273800cf9aefb12130b6df8e7ec866de504181cb88c0bf25c8d47080394d88bc9ae46e108bfad1bc3e81519bcb39f659bc06ffabda528310552
+Description: Clipboard manager for iOS.
+Name: Hello Kayoko
+Author: Alexandra Aurora Göttlicher
+Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
+SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
+
+Package: com.opa334.altlist
+Architecture: iphoneos-arm64e
+Version: 1.0.11
+Section: System
+Maintainer: opa334
+Installed-Size: 340
+Depends: firmware (>=7.0)
+Filename: debs/com.opa334.altlist_1.0.11_iphoneos-arm64e.deb
+Size: 27902
+MD5sum: f1cfdb97679bc2b30b2918220ee9351f
+SHA1: 9eef53971a1a30e13cfc2adf3a18b655dd2d9eb2
+SHA256: 7d145977d3fbcd5030564dc429e18f7456c29f92020c36f32e61d4a82418f737
+SHA512: 47c2499b925b7f59bc54bc2c9e25190bf39ce55afd07ae3c75bf579b7ede5d66b0c17cacdd5e256a59670f08fc81475c0cbe4fa85649fc5a5ffa53522d39765d
+Description: A modern AppList alternative
+Tag: role::developer
+Name: AltList
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Author: opa334
+
+Package: com.opa334.ccsupport
+Architecture: iphoneos-arm
+Version: 1.3.13-2
+Section: Tweaks
+Maintainer: opa334
+Installed-Size: 496
+Provides: com.ioscreatix.silo
+Depends: mobilesubstrate, firmware (>=11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Filename: debs/com.opa334.ccsupport_1.3.13-2_iphoneos-arm.deb
+Size: 64204
+MD5sum: fb8f8641a2508106e155a2fa701d9099
+SHA1: a5229c5da464d2b2f9ff334748801f4194ac6a2e
+SHA256: 60de418d12dbf2384ce045c3f029fb6aa87c53da16c63860ab17d117b7b0473c
+SHA512: c904b6d92c4918c9e9e24bae6a232f1d751153c99771ecff55ed57e01fac57f5a9862a2cc79d9df0725a95cbc7e7aa362522e3e9ffdffe8423e4ccdcfb30f682
+Description: Support tweak for CC modules!
+Name: CCSupport
+Author: opa334
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+
+Package: ellekit
+Architecture: iphoneos-arm64e
+Version: 1.2
+Priority: optional
+Section: Tweak Injection
+Maintainer: Dhinak G <dhinak@dhinak.net>
+Provides: mobilesubstrate (= 99), org.coolstar.libhooker (= 1.6.9)
+Conflicts: com.ex.substitute, org.coolstar.libhooker, science.xnu.substitute, mobilesubstrate, com.saurik.substrate.safemode
+Breaks: com.opa334.libsandy (<= 1.1.6-3)
+Replaces: com.ex.libsubstitute, org.coolstar.libhooker, mobilesubstrate
+Filename: debs/ellekit_1.2_iphoneos-arm64e.deb
+Size: 143768
+MD5sum: 22abcac3a5f481f54e55b5d56a145c4e
+SHA1: d31199f7a2175e3547dfdd3d69eea4916f072cc7
+SHA256: 3f05acea159f0afe6295ae3da3f3cda56958bcff33a6a9abcbbf83ebc6abaa2c
+SHA512: 9c6ecd5740cd6ae6b5e48cdc49ac8e21ac321b42ed7b873964fc770cd82b51574f7d0bebc20d6d1de6cb849a592909beff6267b5c57f23e2bf6da1daf2e146a4
+Description: ElleKit tweak injection libraries and loader
+Name: ElleKit
+Author: Evelyn
+Icon: https://ellekit.space/logos/logo.png
+
 Package: cn.zqbb.holdcpu
 Architecture: iphoneos-arm64
 Version: 2.0.0-23
@@ -77,4 +177,24 @@ Name: Hello CPU
 Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
+
+Package: preferenceloader.top
+Architecture: iphoneos-arm64
+Version: 2.2.8-2
+Section: System
+Maintainer: ProcursusTeam <support@procurs.us>
+Installed-Size: 340
+Provides: preferenceloader (= 2.2.6)
+Depends: mobilesubstrate
+Conflicts: preferenceloader, preferenceloader.rootless, preferenceloader.rootless.top
+Replaces: preferenceloader, preferenceloader.rootless, preferenceloader.rootless.top
+Filename: debs/preferenceloader.top_2.2.8-2_iphoneos-arm64.deb
+Size: 16768
+MD5sum: 85d878f73b910c8a34ebdfb1eccde646
+SHA1: f739a3a71865f33540e71fd98c81e86b0cfc3336
+SHA256: e1713e6097ae0576527a26b6ce728af13b542350feb45a07cf89383b2c78355a
+SHA512: 0011aa9244435e7ad68a38153647f44c157c87deac2eecc93e02a1669917f7398cac19dec77ccb9ad1c96f818e0ade9362a4db9452982eaa2420755b31b07d1e
+Description: load preferences in style
+Author: Dhinak G <dhinak@dhinak.net>
+Name: PreferenceLoader (Top)
 
