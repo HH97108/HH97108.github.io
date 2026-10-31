@@ -1,3 +1,22 @@
+Package: cn.zqbb.appdata
+Architecture: iphoneos-arm64
+Version: 1.5.0-5
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 356
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.fouadraheb.appdata, netskao.appdata-rootless
+Filename: debs/cn.zqbb.appdata_1.5.0-5_iphoneos-arm64.deb
+Size: 77456
+MD5sum: 9dd6ba83c78dcf82c07aed9ee2dc86f7
+SHA1: 5e671b36aacfa72027203a957a67a2866de22aa3
+SHA256: 85f6e611ef8ab960abbadc783fb7a1d41becc2fe26057d56611f6c2ddcf13799
+SHA512: 7d92aecb42c8f547ab2074363f2ab8db0d06cdb14c835d87cebfd92b99737e58898217a7882a6802aa42746f46f6a287035fa2bc5e0820fd7afa3ee6b016a198
+Description: View & Manage Applications Data from your Home Screen
+Name: Hello AppData
+Author: Fouad Raheb <support@fouadraheb.com>
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.appdata
+
 Package: cn.zqbb.holdcpu
 Architecture: iphoneos-arm64
 Version: 2.0.0-23
