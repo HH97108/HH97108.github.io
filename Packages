@@ -17,6 +17,29 @@ Name: Hello AppData
 Author: Fouad Raheb <support@fouadraheb.com>
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.appdata
 
+Package: cn.zqbb.fix120hz
+Architecture: iphoneos-arm64
+Version: 1.2.0-62
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 1596
+Depends: mobilesubstrate (>= 0.9.5000) , firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/cn.zqbb.fix120hz_1.2.0-62_iphoneos-arm64.deb
+Size: 358944
+MD5sum: 75f645b9b6cb52c73d20146586f3ca79
+SHA1: e3d3f5a2d90c917c4cb6cc999a183e99e792ced6
+SHA256: 4b9221a69f442da20a3491de2bf095fa2ee73d91759311c78cdb54e1f101c1d7
+SHA512: 4c8205201bd2036ce816d6cc5bd1ce6a5fbfc11bd34ea651033237628d870bef4e594a45effc93c571479e415eb1e6efe313a47b743acd881ee4a80bf0e98086
+Description:
+ - Unlock dynamic refresh rate from 80hz to 120hz
+ - .
+ - 解锁动态刷新率80hz到120hz.
+Name: Hello 120Hz
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
+
 Package: cn.zqbb.holdcpu
 Architecture: iphoneos-arm64
 Version: 2.0.0-23
