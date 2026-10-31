@@ -78,25 +78,6 @@ Author: zqbb
 Name: Hello 3Q
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
 
-Package: codes.aurora.kayoko
-Architecture: iphoneos-arm64
-Version: 3.6.1
-Section: Tweaks
-Maintainer: Lessica <82flex@gmail.com>
-Installed-Size: 1228
-Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader, com.opa334.libsandy
-Filename: debs/codes.aurora.kayoko_3.6.1_iphoneos-arm64.deb
-Size: 168054
-MD5sum: 81158d5f14345de589809f7a33d0f576
-SHA1: 8bb416dd0cefc52de30bdc73079a88dcec9c3e03
-SHA256: 84b1baf83ecbad9b6b75c0d0873c4a1f10d396653b7d659f6fe912271754ba60
-SHA512: dd32e49238a3e273800cf9aefb12130b6df8e7ec866de504181cb88c0bf25c8d47080394d88bc9ae46e108bfad1bc3e81519bcb39f659bc06ffabda528310552
-Description: Clipboard manager for iOS.
-Name: Hello Kayoko
-Author: Alexandra Aurora Göttlicher
-Icon: https://apt.002599.xyz/web/icon/codes.aurora.kayoko.png
-SileoDepiction: https://apt.002599.xyz/web/codes.aurora.kayoko
-
 Package: com.opa334.altlist
 Architecture: iphoneos-arm64e
 Version: 1.0.11
