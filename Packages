@@ -36,6 +36,27 @@ Author: 妖刀
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: com.opa334.ccsupport
+Architecture: iphoneos-arm64
+Version: 1.3.13-2
+Section: Tweaks
+Maintainer: opa334
+Installed-Size: 560
+Provides: com.ioscreatix.silo
+Depends: mobilesubstrate, firmware (>= 11.0)
+Conflicts: com.ioscreatix.silo
+Replaces: com.ioscreatix.silo
+Filename: debs/CCSupport_1.3.13-2_iphoneos-arm64.deb
+Size: 59024
+MD5sum: 9ea9b776e52adffab77c3c9102edb2f0
+SHA1: 6a2e56716fc7aed26513f05a455b03ded3fb1c3c
+SHA256: 5d58315cbd734b9c10b12f8a1f2ad9b6c8d4cd359053fc92d6ffd55719827381
+SHA512: cb8d35e2eecd6dbc3d3ab4355bda20d2ed7f2b6b49f4da35f88d071509a36135b0ecd710013c162e4f4c240e850cce768288928d2e3b857c29c9ac84f00fe409
+Description: Support tweak for CC modules!
+Name: CCSupport
+Author: opa334
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+
 Package: byg.iosios.net.griddy
 Architecture: iphoneos-arm64
 Version: 1.2.3
@@ -75,6 +96,82 @@ Author: zqbb
 Name: Hello 3Q
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
 
+Package: cn.zqbb.appdata
+Architecture: iphoneos-arm64
+Version: 1.5.0-5
+Section: Tweaks
+Maintainer: zqbb
+Installed-Size: 356
+Depends: firmware (>= 15.0), mobilesubstrate
+Conflicts: com.fouadraheb.appdata, netskao.appdata-rootless
+Filename: debs/Hello_AppData_1.5.0-5_iphoneos-arm64.deb
+Size: 77540
+MD5sum: 54c53f042c151df984b5a3be9669aa5d
+SHA1: 0709a11967810850e928c1c36263c1e0abb735c4
+SHA256: 86d0fdc1e08a1eb331998d5da0004fe97b2bd7ef9f1685a0cd79bb7a4fb0f7ae
+SHA512: 5b7b6ab5a6cb66041df74b3ea0b710acd47b21802c768c30d8716b917280dcb3f1ae0e0d67705aac2d97a4abbc9caf2eb6fcfa9dd00a05615dedf91baf11bb39
+Description: View & Manage Applications Data from your Home Screen
+Name: Hello AppData
+Author: Fouad Raheb <support@fouadraheb.com>
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.appdata
+
+Package: byg.iosios.net.jade
+Architecture: iphoneos-arm64
+Version: 1.0.5
+Section: 杂七杂八
+Maintainer: 搬运工
+Installed-Size: 1502
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport, com.mrgcgamer.libgcuniversal, preferenceloader, firmware (>= 15.0)
+Filename: debs/Jade控制中心美化_1.0.5_iphoneos-arm64.deb
+Size: 308108
+MD5sum: 227cd97615e77bcab21ce1befb180300
+SHA1: 36aa2d2b0ee7c8fcf67876b6dc50dc1e2c899080
+SHA256: 101c45b33b79f5fb0f145bb3e4fbda4310df2eedfe56efb338900164efd9655f
+SHA512: 021c351c901527b6b7ab301f61ba7fef8b047c58914218111c815475223183ca3e3acc09205031a0d8acaca6e7408650980dd10ba0de04c5448424aee605d5be
+Description: Your control center, brought anew.一款控制中心美化插件，非常的不错，可以缷载一些其它功能的插件了，感谢搬运工源管理购买分享！这款插件非常的好看，给人一种清新的感觉！搬运工源，真的用心在做免费！一个搬运工源就足以！喜欢的小伙们点个赞！万古长青！
+Name: Jade控制中心美化
+Author: Nightwind and thetimeloop
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.kayoko
+Architecture: iphoneos-arm64
+Version: 4.1.2
+Section: 系统增强
+Maintainer: 搬运工
+Depends: firmware (>= 14.0), mobilesubstrate, preferenceloader
+Filename: debs/Kayoko剪贴板神器_4.1.2_iphoneos-arm64.deb
+Size: 369568
+MD5sum: d11cc793dad9141ff8bc8e4a2e58cf47
+SHA1: b694fd7f4a6beb44a0377250b8f62d2822a1f14f
+SHA256: 629953063f6ec1998c7801df622db78ee5b9047d7dcc3687e616232b37ed7ab9
+SHA512: 5407d3901c721e18724dc895534ff3dccaec29ebd2d87a4ec1651086e63df074c84444033ec687f78141261c8adbf715ae389ec8355fe53a2814075a13fe0a3e
+Description: 一款剪贴板神器，类似于Copylog和Nicelog，但是这是一块免费插件，非常的好用！支持复制图片到另一个软件，棒！其他开发者编译纯自用。适配多巴胺，此版本修改设置可以生效，自带中文翻译！82flex修复支持iOS16，非常的好用且免费，有问题请等更新修复！
+Name: Kayoko剪贴板神器
+Author: Traurige
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.rootless.minilsp
+Architecture: iphoneos-arm64
+Version: 1.1.2
+Section: 系统增强
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: mobilesubstrate
+Conflicts: com.skypain.minilsp
+Filename: debs/MiniLsp迷你锁屏播放器-Rootless_1.1.2_iphoneos-arm64.deb
+Size: 5620
+MD5sum: f319fc6c9a27fe6d96c1a5899a13d9f8
+SHA1: ee948fa7e77235164444ebc1a90318686f332048
+SHA256: c9d89239ea36d80f413c87cce8006f7219c099fdc1f58665ad2e483d744adcca
+SHA512: 7a8a92f69bbdfbc65e0db6f4e5f71e4405568a5c8c9a8587d9b4b5ca7da5030c2e8ae61c0b6c2385be49b6559e0631962b661671e16f566a37cdfb3da329ba37
+Description: 迷你锁屏播放器，无设置选项。
+Name: MiniLsp迷你锁屏播放器-Rootless
+Author: Mr.Zhang
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: preferenceloader
 Architecture: iphoneos-arm64
 Version: 2.2.8
@@ -95,6 +192,23 @@ Name: PreferenceLoader
 Author: Dhinak G <dhinak@dhinak.net>
 dev: dhinakg
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+
+Package: com.0xkuj.safarix
+Architecture: iphoneos-arm64
+Version: 1.9.9.1
+Section: 插件
+Maintainer: 0xkuj
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, firmware (>= 15.0)
+Filename: debs/SafariX_1.9.9.1_iphoneos-arm64.deb
+Size: 322216
+MD5sum: 4a0311f76154a22a14e773bc3151676b
+SHA1: 4ad388cf0686cf03b6e98280fe7a8c6a40b63287
+SHA256: 6b9dfb4f78c3d68b4ba25713013aeb52c3c47336196010e59a290272b1338ac6
+SHA512: d00af44bc3d8ec534258648891db1d22cdd8fdb14e6c0e12c385553b0f6e21c294953f7147ddb9e6ce1308b3dfd456a9828b75f4de93f35a0abf425c36866d6e
+Description: Safari浏览器增强。
+Icon: https://sini921.github.io/repo/sileodepiction/icon/safarix.png
+Name: SafariX
+Author: 0xkuj
 
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm64
@@ -275,6 +389,26 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
 
+Package: cn.yttxcs.pullclearnc-rootless
+Architecture: iphoneos-arm64
+Version: 1.1-8
+Section: Rootless
+Maintainer: 他是个疯子 <409774743@qq.com>
+Installed-Size: 166
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/下拉清理通知-Rootless_1.1-8_iphoneos-arm64.deb
+Size: 6924
+MD5sum: ffc21c30316e4581d2dab277afe33332
+SHA1: a4dd1089a8c0a8bed503dc8dcb903b469b61b58f
+SHA256: a5de76264f79088d456aa74864ffb8abec6bb09063dbedeca39666fa85c61504
+SHA512: 61c690c1ee878628c318a86c7ac8609131ee929eb4a8ba7953c30c930abd2ba135d6096d99afcd07b925450eaa429c117ff271abc5b3c5b45372acf66470526a
+Description: 轻量级下拉清理通知，通知栏快速下拉即可清理，并显示清理成功几条
+ModernDepiction:
+Name: 下拉清理通知-Rootless
+Author: Netskao
+Sponsor: 幺筒源<409774743@qq.com>
+Icon: file:///Applications/Cydia.app/Sections/System.png
+
 Package: byg.iosios.net.classickeyboardxs-rootless
 Architecture: iphoneos-arm64
 Version: 1.1-9
@@ -291,6 +425,25 @@ SHA512: 2adb18490da7ba1a733bd87a9902a46a0345889ed8213cf6e5f276e38871718efcfafddb
 Description: 自定义X键盘底部高度，地球底部高度等，非常不错的一个插件，键盘低了，用起来很舒服，搬运工源，永久免费，大家多多推荐！
 Name: 原生键盘高度调整
 Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.rainbowkeyboard
+Architecture: iphoneos-arm64
+Version: 1.0.26~lite4
+Section: 系统增强
+Maintainer: 搬运工
+Installed-Size: 672
+Depends: mobilesubstrate, preferenceloader
+Filename: debs/彩虹键盘_1.0.26_lite4_iphoneos-arm64.deb
+Size: 134204
+MD5sum: 38b801f1b367c58eaf287544aac682d9
+SHA1: 148ab4d5cf70cc1e652b58b5557419f0ae53da3d
+SHA256: 6d0ed444afab501db18c01b5791abdf054a93a861f119fb36afef7ab41cb486c
+SHA512: 42e9f59dc883111229c670c510d5b97e270a411a19588325f01311e5381f41c329e19ee648ff926e6c51a0f227e057ec958a17c4ca7da6cbb5932e95f71ce1a2
+Description: 固定霓虹预设与键盘配色，支持原生键盘和微信输入法。四种固定预设、三星风格扩散与霓虹圆环两种样式。自定义键盘底色和键帽颜色，保留按下态及跨 App 配色兼容。键盘配色与搜索词颜色分别开关，支持搜索词单色或双色渐变、自定义颜色。九宫格及全键盘切换实时刷新粗霓虹边框，可指定微信输入法或原生键盘优先弹出。最多复用两组光效，默认快速点击预设，低电量或高温时降低光效频率。移除键帽弹跳、调节滑条、诊断写盘和内置大预览图。
+Name: 彩虹键盘
+Author: MoWang
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
@@ -311,6 +464,24 @@ SHA512: f814487d85e08564bf48b9f418996d912ec7106a1828f5f8366abc97a1087050d10d565d
 Description: 抖音净化不消失版！请认准搬运工源！设置位于抖音-设置，去除启动广告，去除视频流广告，去除视频流中的直播，去除流量提示，去除青少年提示，去除左下角播放时弹出的商品购买，去除左上角悬浮的推广等，可启用原始按钮或双击视频保存无水印视频活图片，支持保存所有视频或图片，可启用浅色模式或关闭，可启用全局纯净模式，可启用关注二次确定，可启用显示所有视频进度条，可启用双击快捷复制文案，可启用首页或非首页自动播放下一条，可启用iWall插件快速设置背景，可禁用头像挂件显示，可禁用弹出红包，可禁用全局状态栏，可禁用首页本地页面，可禁用摇一摇找朋友，可禁用分享面板朋友，可禁用分享面板应用，可禁用分享面板一起看视频，可禁用视频来源显示，可禁用首页按钮刷新列表，可禁用评论中的置顶评论，可禁用评论中的链接广告，可禁用底部朋友按钮，可禁用底部发抖音按钮，可禁用底部消息按钮，可禁用首页左上角直播按钮，可禁用首页右上角搜索按钮，仅支持15.7.0版本及以上(最后完美兼容版本16.2.0)，此插件已停止维护！！！
 Name: 抖音净化不消失版-Rootless
 Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.zhuxiao
+Architecture: iphoneos-arm64
+Version: 0.0.3
+Section: 杂七杂八
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/注销不锁屏-Rootless_0.0.3_iphoneos-arm64.deb
+Size: 3444
+MD5sum: 68ce8edf73341734f1d33fe8f7ee862e
+SHA1: d924b9c881b9e8a42a8974dd9217eb8999def211
+SHA256: 2ef84aab5af37c7c89d66ea4833c02e195828a33cf58d480cc44698d336e54d6
+SHA512: f9b084786f7615e753c5544cd535c1ad41e5a359cef2f681536b48ea1c31f53453646c028a38967d38c979209115950cf5711a09fad17f08872c4e5cab9fbb94
+Description: 在注销前是解锁状态的情况下，注销后自动跳过人脸或指纹识别到桌面。并不保证一定有效，无效请卸载！
+Name: 注销不锁屏-Rootless
+Author: Brend0n
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
