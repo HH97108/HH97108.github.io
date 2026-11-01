@@ -1,3 +1,41 @@
+Package: byg.iosios.net.batterypercent.rootless
+Architecture: iphoneos-arm64
+Version: 1.1-1
+Section: 系统增强
+Maintainer: 搬运工
+Installed-Size: 168
+Depends: firmware (>= 15.0), mobilesubstrate
+Filename: debs/BatteryPercentX电量百分比-Rootless_1.1-1_iphoneos-arm64.deb
+Size: 6024
+MD5sum: c9d9ca0cb4ec67a196a66205404a7912
+SHA1: 3131231e98a3271edc5add245ab42eb1659597b9
+SHA256: 08cc400fba75fd64b8421538a72974c7262573df6b44714abeeabc1aef713f75
+SHA512: 0c18fbcdb6ae49ceb09ee0102c368fdc42a6d32e60ca3c01d14651d81530e8929715ea54556eab7568e2b6ba86952b7c612c809db8fcdcdd8ab0b67891c43f98
+Description: BatteryPercentX启用系统原生电池百分比，加深边框颜色，加深充电时电池颜色！
+Name: BatteryPercentX电量百分比-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.rootless.cc
+Architecture: iphoneos-arm64
+Version: 2.1-1
+Section: 系统增强
+Maintainer: 搬运工
+Depends: firmware (>= 15.0), mobilesubstrate, com.opa334.ccsupport
+Conflicts: com.skypain.cclocation, com.skypain.ccsettrings, com.skypain.ccrespring, com.sop.cpumagicrootless, netskao.ccbadgeclear-rootless, com.mtac.uptime, netskao.alipayscan-rootless, netskao.wechatscan-rootless, com.skypain.ccvpn, netskao.ccswitchdata-rootless, netskao.ccsim-rootless, netskao.tinyccmodules-rootless, netskao.cccellularrate-rootless, netskao.quantumultxlauncher-rootless
+Filename: debs/CCLess控制中心多模块_2.1-1_iphoneos-arm64.deb
+Size: 1213276
+MD5sum: 9ade35611b397e306b5cdb4c3b044c59
+SHA1: 116c1a505556e3f4a295aff7c14e7e65e8bb1877
+SHA256: 47b09befc7c488b61358fe24f0f15148eff6783cce1eb654fc5e1025392afd19
+SHA512: fb5fae71d455c33f1c1ca68201ba1a4918f8992940f642a9949f9223423a3247dcf9729e1c2b7773eb5d651ad8037bafa4bc6f706981eb727ad34a8a05cf0947
+Description: 集合的控制中心模块：定位、注销、设置、VPN等模块来自skypain。一键清角标、微信扫码、支付宝扫码、双卡切换、蜂窝切换、迷你音量-亮度、启动QX等模块来自Netskao。实时CPU使用率模块来自SOPPPra。系统运行时间模块来自MTAC。感谢Skypain、Netskao、SOPPPra、MTAC等各位大佬！！！更新増加配合snapper2控制中心快速截图！无法安装请卸载相同类型插件！
+Name: CCLess控制中心多模块
+Author: 妖刀
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.griddy
 Architecture: iphoneos-arm64
 Version: 1.2.3
@@ -36,6 +74,27 @@ Description: 别在后台热加载app咯!
 Author: zqbb
 Name: Hello 3Q
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
+
+Package: preferenceloader
+Architecture: iphoneos-arm64
+Version: 2.2.8
+Section: System
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 386
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/PreferenceLoader_2.2.8_iphoneos-arm64.deb
+Size: 19292
+MD5sum: b3c413670cb0ff25ca33f09ae7c6ab4a
+SHA1: 1cc67ea222ef465d09484d83e69d1088b57d233a
+SHA256: 3935f731e1df4d241bd77b6e6c4c809fb76b4d8030b40c8a3632dd99993838cf
+SHA512: 56171de87248c91f481dd5369b3cda8f8fc06c07c6b3b4558c18bd8b6a3c44115395bb94ad5047dcbd57d1441cc335384dfc97b30497bb2889395009a39188bd
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Name: PreferenceLoader
+Author: Dhinak G <dhinak@dhinak.net>
+dev: dhinakg
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
 
 Package: org.coolstar.sileo
 Architecture: iphoneos-arm64
@@ -215,6 +274,25 @@ Name: Hello CPU
 Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
+
+Package: byg.iosios.net.classickeyboardxs-rootless
+Architecture: iphoneos-arm64
+Version: 1.1-9
+Section: 系统增强
+Maintainer: 搬运工
+Installed-Size: 1044
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: debs/原生键盘高度调整_1.1-9_iphoneos-arm64.deb
+Size: 275568
+MD5sum: baf845c10d2b1b3e2e2e00f40e1d96fd
+SHA1: fbc60677ecd6e80febc92f56ec646c55362c8f52
+SHA256: 22d3e16107f78eb54aff7623968dcce7484fd8a4a0a64325ae3a8cf28c3d509c
+SHA512: 2adb18490da7ba1a733bd87a9902a46a0345889ed8213cf6e5f276e38871718efcfafddb8ad13e9f066550890fd112689cdbbe2039a692e11d09d1b4e4b92807
+Description: 自定义X键盘底部高度，地球底部高度等，非常不错的一个插件，键盘低了，用起来很舒服，搬运工源，永久免费，大家多多推荐！
+Name: 原生键盘高度调整
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
 
 Package: byg.iosios.net.awemepurification.neverupdate-rootless
 Architecture: iphoneos-arm64
