@@ -1,3 +1,22 @@
+Package: com.opa334.altlist
+Architecture: iphoneos-arm64
+Version: 1.0.11
+Section: System
+Maintainer: opa334
+Installed-Size: 340
+Depends: firmware (>= 7.0)
+Filename: debs/AltList_1.0.11_iphoneos-arm64.deb
+Size: 26952
+MD5sum: df68d0e48cfea0b4263a42523c167a2b
+SHA1: 241c89d1b2c0e749afe1c7dc09571a721ab6eebd
+SHA256: eed220c366c538970ac51dabed3af9ffd99554044852a08d6c7956b586da39cd
+SHA512: 93ebec4f9ead395dccc17b5a6909b7166402b0264dc55806d36a0542d834fc31b1a9f5f6804f3cce3b4ff4a69bd068877da10dbf38e150216e95ff9b8bc262a4
+Description: A modern AppList alternative
+Tag: role::developer
+Name: AltList
+Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
+Author: opa334
+
 Package: byg.iosios.net.batterypercent.rootless
 Architecture: iphoneos-arm64
 Version: 1.1-1
@@ -75,6 +94,29 @@ Name: Griddy图标随意摆
 Author: mikifp
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: cn.zqbb.fix120hz
+Architecture: iphoneos-arm64
+Version: 3.3.3-6
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 6188
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0), preferenceloader, com.opa334.altlist
+Conflicts: cn.zqbb.fix120hz15, com.zqbb.fix120hz, com.zqbb.dynamic120hz
+Filename: debs/Hello_120Hz_3.3.3-6_iphoneos-arm64.deb
+Size: 1811256
+MD5sum: 6f62c3cedecaff607d0c8323ed097375
+SHA1: ccc3f8f0772989c4036dc933f74201380bc89495
+SHA256: 679a8c8b1b0835e016eee5959077a4ae6dc15b1a51da0003f1683e60d053bb5e
+SHA512: ca1baab90af5f5b6ae24b3016b079a6c0d3493ae58c70056a58ed68f98327425a550bc37972acbd3eed455e2646d7cb631a206a99b191ef54581958d358b02e5
+Description: 
+ - Unlock dynamic refresh rate from 80hz to 120hz
+ - .
+ - 解锁动态刷新率80hz到120hz.
+Name: Hello 120Hz
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.fix120hz
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.fix120hz
 
 Package: cn.zqbb.stopautolaunchapps
 Architecture: iphoneos-arm64
@@ -171,6 +213,24 @@ Name: MiniLsp迷你锁屏播放器-Rootless
 Author: Mr.Zhang
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: com.niceios.nicecaller15-rootless
+Architecture: iphoneos-arm64
+Version: 1.0.1.5-2
+Section: Tweaks
+Maintainer: NiceiOS
+Installed-Size: 14020
+Depends: mobilesubstrate, com.niceios.nicehelper-rootless (>= 5.3), preferenceloader
+Filename: debs/NiceCaller_iOS15_【Rootless】_1.0.1.5-2_iphoneos-arm64.deb
+Size: 3751312
+MD5sum: 3141ef32e9e1fe4e12a2650a1837367c
+SHA1: 40c7625084b933c1095f98ece135ff7d3cff87c3
+SHA256: 40abbdc329f49a163bfbba33bb1a60acc8c993ce458629584b65e141bdd008df
+SHA512: bd05c0d5a2879e438a635d3b2b4a86c1cf431fcf2676202485952b5e6271654dcf1f6a91934863e1dfa256508cf2ddb3dfbc45c73ab018a1af3d8136d17b6d72
+Description: 通话录音,变声器,背景声音,自动应答,安卓样式拨号键盘,骚扰拦截,窗口电话(Callbar),归属地显示
+Name: NiceCaller(iOS15)【Rootless】
+Author: NiceiOS
+Sponsor: NiceiOS
 
 Package: preferenceloader
 Architecture: iphoneos-arm64
