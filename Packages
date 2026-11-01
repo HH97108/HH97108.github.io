@@ -1,3 +1,60 @@
+Package: byg.iosios.net.griddy
+Architecture: iphoneos-arm64
+Version: 1.2.3
+Section: 杂七杂八
+Maintainer: 搬运工
+Installed-Size: 236
+Depends: mobilesubstrate, firmware (>= 15.0)
+Filename: debs/Griddy图标随意摆_1.2.3_iphoneos-arm64.deb
+Size: 17056
+MD5sum: 278a41c64dd763480b51567a4d6336d1
+SHA1: 2837428017b33a8d110c3e95ce85de8a71f59e11
+SHA256: f4e05ba745d41b74bfb9132c4813eda8462509b11234c47e627bf7a5fc3ae2f2
+SHA512: d6e02eb6978086a5f774f667b19cb95c11da83684703cd85894cc3b2c3233633726821af04e1d68d9859bbb7f8565627302eda0d5af48f5774539e7306a755de
+Description: 小伙们期待的图标随意摆的插件终于来了，不少小伙们一直问机车主无根有没有这个插件，今天它来了。原价1.49美元，有能力的请购买正版支持作者！插件安装注销即可生效，暂时无设置项！支持主屏幕、dock和文件夹中的自定义布局、支持任何大小的图标或小部件！搬运工源，真的用心在做免费！
+Name: Griddy图标随意摆
+Author: mikifp
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: cn.zqbb.stopautolaunchapps
+Architecture: iphoneos-arm64
+Version: 2.5
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 1104
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 15.0)
+Conflicts: zp.stopautolaunchapps
+Filename: debs/Hello_3Q_2.5_iphoneos-arm64.deb
+Size: 254140
+MD5sum: f7ef52ee2d3449e410da2b6ee89a16ad
+SHA1: 5a0273ffb722ee0e46aa5bb742bed4c2e8e59dbe
+SHA256: 97bcf43d7ffa7e231d284b694d4f8e5ff15ea483233dde7e9602b0ca7e65cd32
+SHA512: f2ace7e879c9578333183a15a30f1cef6c309471f91ddf007117d2e301777d96fb84d38c87f63621b8c3649a328baaf6e521c74b86b3dfd73a359cd8a8138f51
+Description: 别在后台热加载app咯! 
+ - 优点:节约内存,少杀后台.
+Author: zqbb
+Name: Hello 3Q
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
+
+Package: org.coolstar.sileo
+Architecture: iphoneos-arm64
+Version: 2.5
+Section: Packaging
+Maintainer: Amy While <me@anamy.gay>
+Depends: firmware (>= 11.0), firmware (>= 12.2) | org.swift.libswift (>= 5.0), coreutils (>= 8.30-1), dpkg (>= 1.19.4-1), apt (>= 1.8.2), libzstd1
+Filename: debs/Sileo_2.5_iphoneos-arm64.deb
+Size: 2893796
+MD5sum: f231c9913e49d5b28e046f8987cb3175
+SHA1: 9ceaf600cb44e410434aae06e82300ca00b645ee
+SHA256: c541fc97e663dfdfaab89944c6f03aea5d24e92829a488d1028337e1a7cf0ca2
+SHA512: b2d612685d1bc339367f158b82d527742fc07334981f8a61d86a44fc4d29eaf5051fde6d580bcd5a4d6dffd3b1929f6c07cd6b8831f555e8945a764bf391ffb8
+Description: A modern APT package manager frontend
+Name: Sileo
+Author: Amy While <me@anamy.gay>
+Icon: https://getsileo.app/img/icon.png
+SileoDepiction: https://featuredpage.getsileo.app/depiction.json
+
 Package: cn.zqbb.appdata
 Architecture: iphoneos-arm64
 Version: 1.5.0-5
@@ -158,4 +215,24 @@ Name: Hello CPU
 Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
+
+Package: byg.iosios.net.awemepurification.neverupdate-rootless
+Architecture: iphoneos-arm64
+Version: 2.3-4
+Section: 软件破解
+Maintainer: 搬运工
+Installed-Size: 2480
+Depends: mobilesubstrate, firmware (>= 15.0)
+Conflicts: netskao.awemepurification-rootless
+Filename: debs/抖音净化不消失版-Rootless_2.3-4_iphoneos-arm64.deb
+Size: 153892
+MD5sum: 3326cdd174da81a652f01ab53b4d3727
+SHA1: 5a52dd7f164a23431225d089fc5fa6d004c5778d
+SHA256: 349fbff417527fe88cdb01daf268ec97964245ba5007af8c1a1f8db65f2af5a1
+SHA512: f814487d85e08564bf48b9f418996d912ec7106a1828f5f8366abc97a1087050d10d565d60268f85338396a216d63c25901ccf7f69c4cf047a44ce6d3ba5576a
+Description: 抖音净化不消失版！请认准搬运工源！设置位于抖音-设置，去除启动广告，去除视频流广告，去除视频流中的直播，去除流量提示，去除青少年提示，去除左下角播放时弹出的商品购买，去除左上角悬浮的推广等，可启用原始按钮或双击视频保存无水印视频活图片，支持保存所有视频或图片，可启用浅色模式或关闭，可启用全局纯净模式，可启用关注二次确定，可启用显示所有视频进度条，可启用双击快捷复制文案，可启用首页或非首页自动播放下一条，可启用iWall插件快速设置背景，可禁用头像挂件显示，可禁用弹出红包，可禁用全局状态栏，可禁用首页本地页面，可禁用摇一摇找朋友，可禁用分享面板朋友，可禁用分享面板应用，可禁用分享面板一起看视频，可禁用视频来源显示，可禁用首页按钮刷新列表，可禁用评论中的置顶评论，可禁用评论中的链接广告，可禁用底部朋友按钮，可禁用底部发抖音按钮，可禁用底部消息按钮，可禁用首页左上角直播按钮，可禁用首页右上角搜索按钮，仅支持15.7.0版本及以上(最后完美兼容版本16.2.0)，此插件已停止维护！！！
+Name: 抖音净化不消失版-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
 
