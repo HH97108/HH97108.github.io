@@ -542,6 +542,24 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.bundleid.png
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.bundleid
 
+Package: cn.zqbb.hello.bundleid
+Architecture: iphoneos-arm64
+Version: 1.6.2-6
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 21708
+Filename: debs/cn.zqbb.hello.bundleid_1.6.2-6_iphoneos-arm64.deb
+Size: 5972782
+MD5sum: b580bacb3f84a5161541c79212b856f9
+SHA1: fd8a64b1e0aebfe3cebfe605cb65aa45d00a6d1d
+SHA256: 8d98f7d6459a2f86bffdacd21f7d9046cd7320257a552f77cdabcb8ea6873969
+SHA512: 3963f58f0c6e02d160ce8e9ebbd35ca870b0b898db4f0c9d5b89f329819d4eda66254a186fff211c1e690630935d9bec1ff5b3e27d115a442fe42da4c59749f1
+Description: 伪装越狱和巨魔应用，让商店应用更难检测越狱!
+Name: HelloBundleID
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.bundleid.png
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.bundleid
+
 Package: cn.zqbb.stopautolaunchapps
 Architecture: iphoneos-arm64e
 Version: 2.5
