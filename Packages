@@ -308,6 +308,123 @@ Author: 机车主&来了老弟&iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.autofillfix
+Architecture: iphoneos-arm64
+Version: 0.1
+Section: 杂七杂八
+Maintainer: 搬运工
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.autofillfix_0.1_iphoneos-arm64.deb
+Size: 4476
+MD5sum: 273ecd536f9e785be3bd48126fc3af10
+SHA1: c9cdbd2fac56b29fcb81fea3751a07ba10985e79
+SHA256: a217405351b839de58e5ee7bee0f64998c9c9f843be78f3f1174c576da1ac33e
+SHA512: 8ad72db50d61d994571d9222fcfb7fc1f3be8d5da82d35fada9069afe3fccfa7414aa20fb1773baaeb89fcefaac131ffd07aa7da12d9a4aa2e3d9e6064b11721
+Description: Fix for autofill not working after restarting backboard or sbreload修复越狱后，某些软件，短信验证码不自动填充问题，应该是有作用的，有需要的用户可以尝试一下，无效请缷载！
+Name: Auto短信验证码自动填充-Rootless
+Author: P2KDev
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.goodwifi16
+Architecture: iphoneos-arm64
+Version: 1.7.3
+Section: 系统增强
+Maintainer: 搬运工
+Installed-Size: 464
+Depends: mobilesubstrate, preferenceloader, firmware (>= 13.0)
+Conflicts: com.julioverne.goodwifi, com.daodao.goodwifi
+Filename: debs/byg.iosios.net.goodwifi16_1.7.3_iphoneos-arm64.deb
+Size: 100312
+MD5sum: e2bad7f67d033ffc6621208689e0f766
+SHA1: ed76b44f3e1c706ac5942de5b8dc97e3cbfb82dc
+SHA256: a0790c706683ae5f289a345acd7aa9e5ba7993c2256bb716d23f15dfc9a305e7
+SHA512: 92914edde700e08edc32b2ff57c9e60587d3af95409284a64d61cafd2593448f57d522e5669f21484247913c6f9058431397cea6be6c584f02f51500ee854714
+Description: 应群友要求上架！本款插件拥有更好的的 WiFi 配置，可查看连接的 WiFi 信道、加密方式、信号值，去除 RSSI 限制，显示 MAC 地址等，简体中文版，新年快乐！iOS15的用户也可以用这个版本了，卸载之前的iOS15版本插件！
+Name: GoodWiFi中文版
+Author: julioverne & 妖刀
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.icleanerpro
+Architecture: iphoneos-arm64
+Version: 7.10.0
+Section: 系统增强
+Maintainer: 搬运工
+Depends: firmware (>= 4.0), findutils, apt | apt7
+Conflicts: org.altervista.exilecom.icleaner
+Replaces: org.altervista.exilecom.icleaner
+Filename: debs/byg.iosios.net.icleanerpro_7.10.0_iphoneos-arm64.deb
+Size: 1392946
+MD5sum: 62fb017cb57d546c59facc27c3c0c9be
+SHA1: ec52005a1820b63c5999837cc192790bcd3673ec
+SHA256: 8edda196b8f71700b7d6df671849926cec7a96fdc474f03e6e7a1d48ba79e120
+SHA512: a07e0917a0e9e285db6ad6922aeb393fcdde506b8d1e7afd523ac2ad74b7546bc0c34be9a997a375fcc5b4cecbc586a13adcd90f0936d3b27ba48b8c63359069
+Description: The first real iOS system cleanup and management utility iOS最强的垃圾清理工具，此为官方破解版，全功能破解！有经济能力的，请支持一下大神！有问题群里反馈！
+Name: iCleaner Pro小扫把清理垃圾工具-Rootless
+Author: Ivano Bilenchi
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.settingsrevamp
+Architecture: iphoneos-arm64
+Version: 3.0.1-1
+Section: 插件依赖
+Maintainer: 搬运工
+Installed-Size: 888
+Depends: mobilesubstrate, preferenceloader, com.mrgcgamer.libgcuniversal, firmware (>= 14)
+Conflicts: com.creaturecoding.shuffle, com.trappledestek.ikset, pro.ikghd.iksettings, preferenceloader.rootless.tops, org.mr.settingswidgets, com.trappledestek.settingswidgets, com.shepgoba.settingswidgets, preferenceloader.rootless.top,com.hk.settingsrevamp.cn.rl
+Filename: debs/byg.iosios.net.settingsrevamp_3.0.1-1_iphoneos-arm64.deb
+Size: 447534
+MD5sum: 364cd88c9d5f6e32b4ed195be2da967f
+SHA1: 13cd1d1afaf643fd30d9ecf98f9a74a20cf49f9f
+SHA256: 5839ee76122a25d66f12d314d630205594cdf761b5cd69d32b61de865d6419ff
+SHA512: 1d4c3b06b75dcd04f5a2ddd41e50383a00cb42af092f1d245f98ee89f96194c89a7abae08f40a305b67e9c80f4e00996107ef5f88377bb0a2e22ef7106a13d73
+Description: Customize the ios settings page插件设置归类，一款将插件归类，美化系统设置的插件，已最新汉化，无需汉化包！可以更换设置背景图片，把插件归纳到一起！具体可以观看插件介绍，非常的nice！后续有更新，等搬运工源第一时间更新！2.1.1旧版本搬运工源群文件里有！
+Name: SettingsRevamp-设置归类
+Author: SOPPPra
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.shellx
+Architecture: iphoneos-arm64
+Version: 11.3
+Section: 系统增强
+Maintainer: 搬运工
+Installed-Size: 11532
+Depends: mobilesubstrate, preferenceloader, com.opa334.ccsupport
+Filename: debs/byg.iosios.net.shellx_11.3_iphoneos-arm64.deb
+Size: 4277320
+MD5sum: 8ed9e25eba55cf12787efee56230f55b
+SHA1: 82692242ce4e8473b390f776f9f79bec814df4c3
+SHA256: 0dabe7eb2294a94a21d25628952bbc80061a16759719610219e228d8b993d7f0
+SHA512: c65c781f666ada82f33ef85268fb74eaaea1592f20b578a2a190e93fa802e21845abd57f88d4e7e04aa61e6ffaa9b98f6ff4d4b79ab45e92112425121c285d34
+Description: 录屏/截图，自动套壳、水印工具，支持iOS14-17所有越狱，插件介绍看截图！搬运工源永久免费，大家多多支持！初心未改！
+Name: SHELLX带壳截图/录屏
+Author: iosdump
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.smallbanners-rootless
+Architecture: iphoneos-arm64
+Version: 1.2-8
+Section: 系统增强
+Maintainer: 搬运工
+Installed-Size: 900
+Depends: mobilesubstrate, firmware (>= 15.0), firmware (<< 17.0)
+Conflicts: it.dreamcode.picobanners2, netskao.picobanners2
+Filename: debs/byg.iosios.net.smallbanners-rootless_1.2-8_iphoneos-arm64.deb
+Size: 329380
+MD5sum: cb110424f0cd3f210e82c734d6d025b6
+SHA1: 1b72a59d6250b1e41596e0540f9ed3678833137d
+SHA256: da0ecdc76c128af7f17ba24aea70471420c21ceaa404459dcb4a7f08c15b0bd2
+SHA512: 8bb94a18551bf7a8a0da6e87ed9e133bd8b3dce883bc888e24de7cacc5f18efdf017e572bddeca06aaa35a6d1fb890d757a885afab08ea447f44a73d8b9e9898
+Description: 缩小来消息时的通知横幅，让它别那么大，遮挡别那么多。看起来还不错的插件，有需要的用户可以下载体验！效果可以看截图！
+Name: SmallBanners缩小通知横幅-Rootless
+Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: cn.zqbb.appdata
 Architecture: iphoneos-arm64
 Version: 1.5.0-5
@@ -368,6 +485,24 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.bundleid.png
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.bundleid
 
+Package: cn.zqbb.hello.bundleid
+Architecture: iphoneos-arm64
+Version: 1.6.2-5
+Section: zqbb Tweaks
+Maintainer: zqbb
+Installed-Size: 21772
+Filename: debs/cn.zqbb.hello.bundleid_1.6.2-5_iphoneos-arm64.deb
+Size: 5971830
+MD5sum: b3f50d5fad019b9ed49b06ace6220ff5
+SHA1: 0ba5f4e23a564244caabf86aa77cbbfe4904a5f3
+SHA256: be82287b4e3a37bb7d80e6f0fbd5f63bac19c0acd206588f2b5547b98c927bee
+SHA512: 41c5cf8bfd4d1d7394bfd4ed354774baf28843b034f61d770ce405fb766b7250e9de6f2b19df7976b80f91c90ef0217458cd138286b6305c3faa63ca0e0b8f08
+Description: 伪装越狱和巨魔应用，让商店应用更难检测越狱!
+Name: HelloBundleID
+Author: zqbb
+Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.hello.bundleid.png
+SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.hello.bundleid
+
 Package: cn.zqbb.stopautolaunchapps
 Architecture: iphoneos-arm64e
 Version: 2.5
@@ -387,6 +522,105 @@ Description: 别在后台热加载app咯!
 Author: zqbb
 Name: Hello 3Q
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
+
+Package: com.cydiabc.debkeeper-rootless
+Architecture: iphoneos-arm64
+Version: 1.3.1
+Section: Rootless
+Maintainer: Ai-小苹果™
+Installed-Size: 716
+Depends: firmware (>= 15.0)
+Filename: debs/com.cydiabc.debkeeper-rootless_1.3.1_iphoneos-arm64.deb
+Size: 135446
+MD5sum: b5acfc8957af8914b4412f5e99dd118c
+SHA1: fb2fcf7e7574aee7284f882ec7985e95ad2b9261
+SHA256: 9ed70d62aa7c926615b1dd026b3f1ff2dbe169c58d198619321ebd6815d17d00
+SHA512: 07a98fc7586f370b52053e99f679715bd085444584d8d4c904886b46990d47fddbab87335fec58fa21591b1899dca2c9a3a6be06bde19a54c7ac687bd4951481
+Description: DebKeeper 自动保存 Sileo / apt / dpkg 下载的 deb 包，并内置文件管理器。<br />
+ · 自动收包：校验通过即保存至 /var/mobile/Documents/CydiabcDebs，监听 + 定时扫描双保险<br />
+ · Sileo 内嵌管理器：新闻页右上角文件夹按钮，不跳转即可查看全部 deb<br />
+ · 导出分享：单个分享、一键导出 ZIP、系统面板直发 AirDrop / 微信 / 文件 App<br />
+ · 智能列表：包名解析、时间 / 名称 / 大小排序、模糊搜索<br />
+ · 长按预览详情，左滑删除，支持跳转 Filza<br />
+ · 菜单功能：导出 ZIP / 跳转Filza / 排序方式 / 删除全部
+A12: 1
+Name: DebKeeper保存DEB-Rootless
+Author: Ai-小苹果™
+Sponsor: Ai-小苹果™
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Icon2: 16.png
+
+Package: com.kitten.tweaktool
+Architecture: iphoneos-arm64
+Version: 2.0.0-beta
+Section: Tweaks
+Maintainer: 预言小猫
+Depends: sudo, bash (>= 5.0.3-2), coreutils (>= 8.31-1), grep (>= 3.1-1), sed (>= 4.5-1), gawk (>= 4.2.1-1), tar (>= 1.33-1)
+Filename: debs/com.kitten.tweaktool_2.0.0-beta_iphoneos-arm64.deb
+Size: 10902
+MD5sum: ae2334ee47ded91250db9520bbd270f3
+SHA1: edca1565b145844647c7ecd334dbf147c6f335fb
+SHA256: 97b61f68a904597484636416a73f57c9402db9c4eae3365fb0e57750e887ea9b
+SHA512: 00f15060de454b804ddcb6ad9c2a2455a1b5e95bde531ae3096eeb1ab2f724835adf37b4c5c169d6ac5fa3077e89a7b47125f2ed3f319d87b2d989ea7149e63d
+Description: 适合xina和多巴胺越狱的插件及其配置的一键备份恢复工具
+SileoDepiction: https://Ketty0725.github.io/repo/depictions/native/com.kitten.tweaktool/depiction.json
+Name: 一键备份和恢复工具-Rootless
+Author: 预言小猫
+
+Package: com.mrgcgamer.libgcuniversal
+Architecture: iphoneos-arm64
+Version: 1.7.0
+Section: Development
+Maintainer: MrGcGamer
+Installed-Size: 380
+Provides: com.mrgcgamer.libgcimagepicker, com.mrgcgamer.libgccolorpicker
+Depends: firmware (>= 14.0) | ws.hbang.alderis, firmware (>= 12.0)
+Filename: debs/com.mrgcgamer.libgcuniversal_1.7.0_iphoneos-arm64.deb
+Size: 54510
+MD5sum: 58a32a3d0689abb8e4622dedb3f38ccb
+SHA1: a327a6e11310c7128b82d48b2b195b0f24445b68
+SHA256: a1fdb8d5e5062f26113c90c6514ab16585507df8af0c3db00b55e4f51fafaa16
+SHA512: 835cb41b21b9ffd3b7b8e59e8a2945c5ced5ec7db84ef430e9308e2427ba85a1585b1f4713a3e4f0e56792a32c25dc8f853408b5a18bf996db08b2031b8c8eb5
+Description: An awesome library of some sort!!
+Tag: role::developer
+Name: LibGcUniversal
+Author: MrGcGamer
+
+Package: com.niceios.nicebarx15-rootless
+Architecture: iphoneos-arm64
+Version: 1.0.3.0-2
+Section: Tweaks
+Maintainer: niceios
+Installed-Size: 13060
+Depends: mobilesubstrate,com.niceios.nicehelper-rootless(>=6.5),preferenceloader
+Filename: debs/com.niceios.nicebarx15-rootless_1.0.3.0-2_iphoneos-arm64.deb
+Size: 3842010
+MD5sum: bcb541d6aa5e36d30b278f93c1c20dc9
+SHA1: 4a2ec8211f8c0d9b1e9381254966728c3f45cf6f
+SHA256: c1ebbe926faa0c82c0219f3730ecaaaaaff667036ac1923080f9e397541ce6f3
+SHA512: 9e524009cc8fbeb8c474439c2d35ffc88a393dc7560e1e61b2145666e241708730b52f7a7fb7907d2cd27fb7d9ad5c38b7ad6fcf257f8e6f33a724505340f56a
+Description: 状态栏插件.
+Name: NiceBarX(iOS15)【Rootless】
+Author: niceios
+Sponsor: niceios
+
+Package: com.niceios.nicehelper-rootless
+Architecture: iphoneos-arm64
+Version: 6.9-4
+Section: Addons
+Maintainer: niceios
+Installed-Size: 2556
+Conflicts: com.niceios.nicehelper
+Filename: debs/com.niceios.nicehelper-rootless_6.9-4_iphoneos-arm64.deb
+Size: 736570
+MD5sum: 14ebe2ed16d3ce4001ee45183df0684d
+SHA1: bdd8276dc8d25d058eab1376d7ce90b496621315
+SHA256: 8a58243fb420828603c00b2ca91eae2f612b187644c167760ddfbab4ad588fd0
+SHA512: 4cedbe412eb379f45424d7373a96f7ea2f526df96de9b09d430d563235c4422166ee478ba71281e55dba493f2798577e9defa81a00370f4af4c9727cccc77b9e
+Description: nice插件依赖组件.
+Name: NiceHelper【Rootless】
+Author: niceios
+Sponsor: niceios
 
 Package: com.opa334.altlist
 Architecture: iphoneos-arm64e
@@ -427,6 +661,31 @@ Description: Support tweak for CC modules!
 Name: CCSupport
 Author: opa334
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+
+Package: com.tigisoftware.filza
+Architecture: iphoneos-arm64
+Version: 4.0.1-3
+Priority: optional
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 31822
+Depends: firmware (>= 7.0), zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit, com.tigisoftware.filza39
+Filename: debs/com.tigisoftware.filza_4.0.1-3_iphoneos-arm64.deb
+Size: 10216820
+MD5sum: 4812dc73e2ed0a0281b18e876d96edf1
+SHA1: 50f62b44b8a3804743ea9a136bf7542dfc07e43e
+SHA256: 918a39bd1cf0edefe1bb1a0fbb2253ad764a5633649a22c85ae3df7e33689586
+SHA512: e4049c97b178c51a830b6a137447bdae2faae2d5b11778bf6999a23f6551a9b4ba0602776d70957827a953796d89fb1edfc61098279b4430998355e649e7e47e
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
+Description: File Manager for iPhone, iPad, iPod Touch. Supports iOS 7+
+Tag: purpose::uikit
+Name: Filza File Manager
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=filzafilemanagerDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: TIGI Software <satashi2009@gmail.com>
+dev: satashi2009
+Icon: file:///Applications/Filza.app/AppIcon57x57.png
 
 Package: ellekit
 Architecture: iphoneos-arm64e
@@ -469,6 +728,59 @@ Author: zqbb
 Icon: https://rootless.002599.xyz/web/icon/cn.zqbb.holdcpu
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.holdcpu
 
+Package: unrar
+Architecture: iphoneos-arm64
+Version: 7.0.7
+Multi-Arch: foreign
+Priority: optional
+Section: Archiving
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 464
+Depends: libiosexec1 (>= 1.3.1)
+Filename: debs/unrar_7.0.7_iphoneos-arm64.deb
+Size: 171846
+MD5sum: 67338ff91d8a44966df322b5ccf1e996
+SHA1: 2f105ebd56d7359cb10b748ac497381cfeecd06a
+SHA256: 3d7988b9273346092303cd8788e61360b6e921569333f00f7fb67fd0b5d0b5b6
+SHA512: ab3fb3d6c9b6280c58433dad6a6e3a68749899dcc2768f4c31790a821fb494ff68a7eb4412e83efe5dc04e262ede9b365218be9bbc7fa80be6adc0c0c8699115
+Homepage: http://www.rarlab.com/rar_add.htm
+Description: Unarchiver for .rar files (non-free version)
+ Unrar can extract files from .rar archives. If you want to create .rar
+ archives, install package rar.
+
+Package: unzip
+Architecture: iphoneos-arm64
+Version: 6.0-28
+Priority: important
+Section: Archiving
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 620
+Depends: libiosexec1 (>= 1.3.1)
+Filename: debs/unzip_6.0-28_iphoneos-arm64.deb
+Size: 148442
+MD5sum: 8ef4dd581b9eee4e2296d87992d34dbd
+SHA1: 1df155025ae90ed4feacdb26ba17470668e6ee6d
+SHA256: 3619c68379592ce1b423f813ad89e9a9842ed5df8620c77aa2ac8f757e398e29
+SHA512: a9f8d1675427e7523d8a71695eb8f78c8b942665b3efec3fe181aec6a685e73cc9258cc98e47b4c0747e706acd4a213b71dedee55025962bbfee101612101a03
+Description: de-compesses files in zip format
+
+Package: zip
+Architecture: iphoneos-arm64
+Version: 3.0-12
+Multi-Arch: foreign
+Priority: important
+Section: Archiving
+Maintainer: Procursus Team <support@procurs.us>
+Installed-Size: 592
+Depends: libiosexec1 (>= 1.2.2)
+Filename: debs/zip_3.0-12_iphoneos-arm64.deb
+Size: 141062
+MD5sum: 7b1ea5f5f44dc69acdd0da957307c840
+SHA1: 6993a7efaf4a30000a3543fba61e435f8fc4409c
+SHA256: a1ef9c4fab4b750d755ab2975518103e9fa0698d47efcfa945c4b75e206ed38e
+SHA512: 7eba0f867c73a4658cfce52ecd39b714b8e59995bb06f7be60ca06b63420bbc932ed949c8deb0d7305d0876704f557c503c0fa1d772e91902c80eeea6e434f5b
+Description: standard Windows compression tool
+
 Package: cn.yttxcs.pullclearnc-rootless
 Architecture: iphoneos-arm64
 Version: 1.1-8
@@ -505,6 +817,26 @@ SHA512: 2adb18490da7ba1a733bd87a9902a46a0345889ed8213cf6e5f276e38871718efcfafddb
 Description: 自定义X键盘底部高度，地球底部高度等，非常不错的一个插件，键盘低了，用起来很舒服，搬运工源，永久免费，大家多多推荐！
 Name: 原生键盘高度调整
 Author: Netskao
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
+Package: byg.iosios.net.advertisement
+Architecture: iphoneos-arm64
+Version: 3.0
+Section: 自研插件
+Maintainer: 搬运工
+Installed-Size: 1897
+Depends: mobilesubstrate (>= 0.9.6100), firmware (>= 14.0)
+Conflicts: com.daodao.rootless.vfa, netskao.weibonoads-rootless, com.swing.dpnoads, com.tencent.live4iphone, netskao.ppxnoads-rootless, netskao.blblnoads-rootless, byg.iosios.net.weifeng.rootless, byg.iosios.net.baidudisk.rootless, com.lenglengyu.killads-rootless, netskao.xhsnoads-rootless, byg.iosios.net.killads-rootless, byg.iosios.net.bilibilinoad.rootless, com.snail.bilibilinoad.rootless, byg.iosios.net.csdn.rootless, byg.iosios.net.xhsnoads-rootless, byg.iosios.net.ppxnoads-rootless, com.swing.ddmcnoads, com.swi
+Filename: debs/广告终结者-Rootless_3.0_iphoneos-arm64.deb
+Size: 3600868
+MD5sum: 810456c8be2b2d6e8475c89e4e23602f
+SHA1: 2c75eb537b9da4bcdd02786dae8fc092ef977892
+SHA256: c2875b0fd9734fc1e7efc2bafa10b9d806755917f557dac907caa377c7a61b44
+SHA512: 42604a66920814722a91cba94c2ff87d71f673c1a91c60813d0b1475e84877ecd92f967afe00efc158abf4e46582837209e23ee604267c434b504a7cdcc48523
+Description: 本插件无设置项！安装即生效！广告终结者，一款免费的去广告插件，可谓越狱必装插件，创意由来了老弟提起制作，搬运工源维护更新！其中特别感谢iOSign,Netskao,SWING,Wkk等人为大家提供如此多的去广告插件，如果有安装相同软件的去广告插件，导致sileo无法安装以及软件闪退，建议先删除，防止冲突！广告终结者不涉及系统层注入，不会引起系统崩溃重启，放心使用！软件闪退可使用Choicy禁止插件注入该软件！广告终结者永远免费更新，后续会支持越来越多的软件！再说一遍，有问题可使用Choicy禁止插件注入该软件！不是所有软件都能去广告，你觉得没有用就卸载，不用反馈！因为本来就是自用免费插件！至少我觉得有用！隐根转换除非你把手机设置不灭屏，在转换界面等一小时，不然别尝试了！
+Name: 广告终结者-Rootless
+Author: 机车主&来了老弟&iOSign
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
