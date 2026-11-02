@@ -44,20 +44,6 @@
         "cn.yttxcs.pullclearnc-rootless",
         "byg.iosios.net.zhuxiao"
       ]
-    },
-    {
-      "name": "自研插件",
-      "orig": "自研插件",
-      "pkgs": [
-        "-byg.iosios.net.advertisement"
-      ]
-    },
-    {
-      "name": "软件破解",
-      "orig": "软件破解",
-      "pkgs": [
-        "-byg.iosios.net.awemepurification.neverupdate-rootless"
-      ]
     }
   ],
   "other": "其它"
