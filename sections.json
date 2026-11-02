@@ -1,0 +1,99 @@
+{
+  "sections": [
+    {
+      "name": "Addons",
+      "orig": "Addons",
+      "pkgs": []
+    },
+    {
+      "name": "Archiving",
+      "orig": "Archiving",
+      "pkgs": []
+    },
+    {
+      "name": "Development",
+      "orig": "Development",
+      "pkgs": []
+    },
+    {
+      "name": "Packaging",
+      "orig": "Packaging",
+      "pkgs": []
+    },
+    {
+      "name": "Rootless",
+      "orig": "Rootless",
+      "pkgs": []
+    },
+    {
+      "name": "System",
+      "orig": "System",
+      "pkgs": []
+    },
+    {
+      "name": "Tweak Injection",
+      "orig": "Tweak Injection",
+      "pkgs": []
+    },
+    {
+      "name": "Tweaks",
+      "orig": "Tweaks",
+      "pkgs": []
+    },
+    {
+      "name": "Utilities",
+      "orig": "Utilities",
+      "pkgs": []
+    },
+    {
+      "name": "zqbb Tweaks",
+      "orig": "zqbb Tweaks",
+      "pkgs": []
+    },
+    {
+      "name": "嗨-系统",
+      "orig": "嗨-系统",
+      "pkgs": []
+    },
+    {
+      "name": "插件",
+      "orig": "插件",
+      "pkgs": []
+    },
+    {
+      "name": "插件依赖",
+      "orig": "插件依赖",
+      "pkgs": [
+        "com.opa334.altlist",
+        "com.opa334.ccsupport",
+        "preferenceloader",
+        "com.mrgcgamer.libgcuniversal",
+        "ellekit",
+        "unrar",
+        "unzip",
+        "zip"
+      ]
+    },
+    {
+      "name": "杂七杂八",
+      "orig": "杂七杂八",
+      "pkgs": []
+    },
+    {
+      "name": "系统增强",
+      "orig": "系统增强",
+      "pkgs": []
+    },
+    {
+      "name": "自研插件",
+      "orig": "自研插件",
+      "pkgs": []
+    },
+    {
+      "name": "软件破解",
+      "orig": "软件破解",
+      "pkgs": []
+    }
+  ],
+  "other": "其它"
+}
