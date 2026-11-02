@@ -9,11 +9,6 @@
       ]
     },
     {
-      "name": "嗨-系统",
-      "orig": "嗨-系统",
-      "pkgs": []
-    },
-    {
       "name": "插件依赖",
       "orig": "插件依赖",
       "pkgs": [
@@ -60,7 +55,9 @@
     {
       "name": "软件破解",
       "orig": "软件破解",
-      "pkgs": []
+      "pkgs": [
+        "-byg.iosios.net.awemepurification.neverupdate-rootless"
+      ]
     }
   ],
   "other": "其它"
