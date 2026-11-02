@@ -365,6 +365,25 @@ Author: Donato Fiore
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.choicy.zh-hans
+Architecture: iphoneos-arm64
+Version: 0.1.1
+Section: 插件依赖
+Maintainer: 搬运工
+Depends: com.opa334.choicy
+Replaces: com.opa334.choicy
+Filename: debs/byg.iosios.net.choicy.zh-hans_0.1.1_iphoneos-arm64.deb
+Size: 3838
+MD5sum: fe340c0c644543f0f19afecb2104a171
+SHA1: b063aa7be8ff167226cba75c290ce79634cafe34
+SHA256: 8642a76dd9bfc31b19aefd2632c95247103e8ff4372b17f637a39549ff7acd6b
+SHA512: fe3fce7a4520320833cc03c4e17f292a54c6a28319de972a19507de90352eeb3fdd5383ced69105dde5334ca84d3567cff9facede2589c30341c771960a10de1
+Description: 为软件屏蔽越狱检测Choicy 提供简体中文，基本上各个版本的choicy都可汉化、通用，放心使用！无法更新choicy请先更新完插件之后再安装汉化插件！
+Name: Choicy屏蔽越狱汉化插件-Rootless
+Author: zhaonan
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: byg.iosios.net.goodwifi16
 Architecture: iphoneos-arm64
 Version: 1.7.3
@@ -755,6 +774,29 @@ Description: Support tweak for CC modules!
 Name: CCSupport
 Author: opa334
 Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=ccsupportDp
+
+Package: com.opa334.choicy
+Architecture: iphoneos-arm64
+Version: 1.5.4-2
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1102
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4)
+Filename: debs/com.opa334.choicy_1.5.4-2_iphoneos-arm64.deb
+Size: 162018
+MD5sum: 8185fd123f7a3e762598742924aa0b20
+SHA1: e82db346f0c70733ba98ab79281cf428a0cc1a7f
+SHA256: de7a5cdcbd35fa99d97a20650ff6415da43ef3dd359c68ed6ed3e7f1b54dc1bb
+SHA512: b083bec2a93ec93a3884d5c94ed060101f0570f7e590fd7f6978c2bd7cd1b0b7126d87fc51e8940b7b2fca5ab68b0465b62181f27d56528eb3bfae2ef9a6a61a
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Description: Advanced Tweak Configuration!
+Tag: purpose::extension
+Author: opa334 <opa334@protonmail.com>
+Name: Choicy
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: opa334
+Icon: file:///Library/PreferenceBundles/ChoicyPrefs.bundle/ChoicyIcon@2x.png
 
 Package: com.tigisoftware.filza
 Architecture: iphoneos-arm64

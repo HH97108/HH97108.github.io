@@ -8,8 +8,8 @@ Components: main
 Description: HH97108 的越狱软件源
 Support: https://HH97108.github.io/HH97108.github.io/
 MD5Sum:
- dd4da75ecfd8426cdc37d97d31fcf4b1  49679 Packages
- e8debc06776bfec4ae7dce0bb15f7333  19814 Packages.gz
+ bb37119f1248aa541cdf6f32d635b434  51626 Packages
+ 6b36c05f313cf66205b7661a4286a8d5  20498 Packages.gz
 SHA256:
- 6362486e9813ad0a5a8326b5e385a14a83c4428c5e0b1718d8feb445e20bf665  49679 Packages
- 7a4e159a33f84289e9f481402336e205a98b9be6fa7843b73f36c3b38de429b6  19814 Packages.gz
+ 2aad8657c73d0133dd0eb9cc81dd59c9b8cb2046a62335a6043efbcea697498b  51626 Packages
+ 7bb7dce56d6e05a763488203dd8d30bb35baa13bcebeb024e4432790eec778ce  20498 Packages.gz
