@@ -1,37 +1,6 @@
 {
   "sections": [
     {
-      "name": "Rootless",
-      "orig": "Rootless",
-      "pkgs": [
-        "-cn.yttxcs.pullclearnc-rootless"
-      ]
-    },
-    {
-      "name": "System",
-      "orig": "System",
-      "pkgs": []
-    },
-    {
-      "name": "Tweak Injection",
-      "orig": "Tweak Injection",
-      "pkgs": [
-        "-ellekit"
-      ]
-    },
-    {
-      "name": "Tweaks",
-      "orig": "Tweaks",
-      "pkgs": [
-        "-com.opa334.ccsupport",
-        "-cn.zqbb.appdata",
-        "-com.niceios.nicecaller15-rootless",
-        "-com.niceios.nicebarx15-rootless",
-        "-com.opa334.choicy",
-        "-cn.zqbb.holdcpu"
-      ]
-    },
-    {
       "name": "Hello",
       "orig": "zqbb Tweaks",
       "pkgs": [
@@ -74,6 +43,8 @@
         "byg.iosios.net.advertisement",
         "byg.iosios.net.autofillfix",
         "byg.iosios.net.settingsrevamp",
+        "com.cydiabc.debkeeper-rootless",
+        "com.kitten.tweaktool",
         "com.tigisoftware.filza",
         "cn.yttxcs.pullclearnc-rootless",
         "byg.iosios.net.zhuxiao"
