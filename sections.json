@@ -85,7 +85,16 @@
     {
       "name": "系统增强",
       "orig": "系统增强",
-      "pkgs": []
+      "pkgs": [
+        "byg.iosios.net.griddy",
+        "byg.iosios.net.jade",
+        "byg.iosios.net.advertisement",
+        "byg.iosios.net.autofillfix",
+        "byg.iosios.net.settingsrevamp",
+        "com.tigisoftware.filza",
+        "cn.yttxcs.pullclearnc-rootless",
+        "byg.iosios.net.zhuxiao"
+      ]
     },
     {
       "name": "自研插件",
