@@ -464,6 +464,25 @@ Author: Netskao
 Sponsor: 搬运工
 Icon: https://chinesebuilding.club/pic/cydia.png
 
+Package: byg.iosios.net.trollstore
+Architecture: iphoneos-arm64
+Version: 2.1
+Section: 插件依赖
+Maintainer: 搬运工
+Installed-Size: 184
+Depends: mobilesubstrate
+Filename: debs/byg.iosios.net.trollstore_2.1_iphoneos-arm64.deb
+Size: 28702
+MD5sum: b8ca341ecbdfd5f170e5eee1699a82ad
+SHA1: 9d1d484bfa68f7db9505506740f322f258e2ee23
+SHA256: 93c745578ef6fcf9366f4cbf37aacccf4848b0235f4563ef646adda1f356290a
+SHA512: 4e29fded7d13c42f8ec2464ab60d1dc05fe2c23f039b629a5a0a7f293bfd5500d711321feed21316d306efa461a50b8cc458cd131cf04fd1deb3c559879f0785
+Description: TrollStore巨魔通用汉化插件，强迫症福音！受不了巨魔英文的兄弟们冲吧！让你的巨魔变中文！
+Name: TrollStore巨魔通用汉化包-Rootless
+Author: 妖刀
+Sponsor: 搬运工
+Icon: https://chinesebuilding.club/pic/cydia.png
+
 Package: cn.zqbb.appdata
 Architecture: iphoneos-arm64
 Version: 1.5.0-5
