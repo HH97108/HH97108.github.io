@@ -1,29 +1,11 @@
 {
   "sections": [
     {
-      "name": "Addons",
-      "orig": "Addons",
-      "pkgs": []
-    },
-    {
-      "name": "Archiving",
-      "orig": "Archiving",
-      "pkgs": []
-    },
-    {
-      "name": "Development",
-      "orig": "Development",
-      "pkgs": []
-    },
-    {
-      "name": "Packaging",
-      "orig": "Packaging",
-      "pkgs": []
-    },
-    {
       "name": "Rootless",
       "orig": "Rootless",
-      "pkgs": []
+      "pkgs": [
+        "-cn.yttxcs.pullclearnc-rootless"
+      ]
     },
     {
       "name": "System",
@@ -33,7 +15,9 @@
     {
       "name": "Tweak Injection",
       "orig": "Tweak Injection",
-      "pkgs": []
+      "pkgs": [
+        "-ellekit"
+      ]
     },
     {
       "name": "Tweaks",
@@ -43,7 +27,9 @@
     {
       "name": "Utilities",
       "orig": "Utilities",
-      "pkgs": []
+      "pkgs": [
+        "-com.tigisoftware.filza"
+      ]
     },
     {
       "name": "Hello",
@@ -88,6 +74,8 @@
       "pkgs": [
         "byg.iosios.net.griddy",
         "byg.iosios.net.jade",
+        "com.0xkuj.safarix",
+        "org.coolstar.sileo",
         "byg.iosios.net.advertisement",
         "byg.iosios.net.autofillfix",
         "byg.iosios.net.settingsrevamp",
