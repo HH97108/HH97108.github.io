@@ -25,7 +25,12 @@
     {
       "name": "杂七杂八",
       "orig": "杂七杂八",
-      "pkgs": []
+      "pkgs": [
+        "byg.iosios.net.batterypercent.rootless",
+        "byg.iosios.net.kayoko",
+        "byg.iosios.net.calculatorhistory",
+        "byg.iosios.net.goodwifi16"
+      ]
     },
     {
       "name": "系统增强",
