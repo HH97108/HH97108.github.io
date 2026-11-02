@@ -46,9 +46,12 @@
       "pkgs": []
     },
     {
-      "name": "zqbb Tweaks",
+      "name": "Hello",
       "orig": "zqbb Tweaks",
-      "pkgs": []
+      "pkgs": [
+        "cn.zqbb.appdata",
+        "cn.zqbb.holdcpu"
+      ]
     },
     {
       "name": "嗨-系统",
