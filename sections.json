@@ -22,13 +22,13 @@
     {
       "name": "Tweaks",
       "orig": "Tweaks",
-      "pkgs": []
-    },
-    {
-      "name": "Utilities",
-      "orig": "Utilities",
       "pkgs": [
-        "-com.tigisoftware.filza"
+        "-com.opa334.ccsupport",
+        "-cn.zqbb.appdata",
+        "-com.niceios.nicecaller15-rootless",
+        "-com.niceios.nicebarx15-rootless",
+        "-com.opa334.choicy",
+        "-cn.zqbb.holdcpu"
       ]
     },
     {
@@ -42,11 +42,6 @@
     {
       "name": "嗨-系统",
       "orig": "嗨-系统",
-      "pkgs": []
-    },
-    {
-      "name": "插件",
-      "orig": "插件",
       "pkgs": []
     },
     {
@@ -87,7 +82,9 @@
     {
       "name": "自研插件",
       "orig": "自研插件",
-      "pkgs": []
+      "pkgs": [
+        "-byg.iosios.net.advertisement"
+      ]
     },
     {
       "name": "软件破解",
