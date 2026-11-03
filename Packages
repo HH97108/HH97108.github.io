@@ -578,6 +578,25 @@ Author: zqbb
 Name: Hello 3Q
 SileoDepiction: https://rootless.002599.xyz/web/cn.zqbb.stopautolaunchapps
 
+Package: com.axs.clean
+Architecture: iphoneos-arm64
+Version: 5.2.0-10
+Section: Axs-Tweaks
+Maintainer: Axs & kanuo
+Installed-Size: 356
+Depends: firmware (>= 15.0)
+Filename: debs/com.axs.clean_5.2.0-10_iphoneos-arm64.deb
+Size: 53826
+MD5sum: 7c641c3571a510e352306aba2b36baa0
+SHA1: 3b8d0af19a8f7f64fb22b908e470174bd74cb5a0
+SHA256: 53605fb524f9ee8f365943475299ac4253116beb0a24d35ea927fe7a3090956c
+SHA512: 9bf32b4c1c77badd7244b8e0382d43b584367260c51741f7c38915d374083e9a0544869b1e3bcd48562ec5efcb30239756d94cda9501f7944d799fece87a72df
+Description: 这是一款系统快速清理缓存工具。
+Name: AxsClean
+Author: Axs & kanuo
+Icon: https://axs66.github.io/pro/icon/clean.png
+Sileodepiction: https://axs66.github.io/pro/sileodepiction/clean/js.json
+
 Package: com.cydiabc.debkeeper-rootless
 Architecture: iphoneos-arm64
 Version: 1.3.1
