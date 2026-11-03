@@ -645,6 +645,27 @@ Sponsor: Ai-小苹果™
 Icon: file:///Applications/Cydia.app/Sections/System.png
 Icon2: 16.png
 
+Package: com.cydiabc.prefnest-rootless
+Architecture: iphoneos-arm64
+Version: 1.2.2
+Section: Rootless
+Maintainer: mlgm
+Installed-Size: 888
+Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
+Filename: debs/com.cydiabc.prefnest-rootless_1.2.2_iphoneos-arm64.deb
+Size: 172740
+MD5sum: 0609cc3a33baa6f27c7d473fbd01cc8f
+SHA1: 3256c7aca1902971b8b432ba4ede83a411754d1e
+SHA256: ef0693f6c9bdf1254a96fe565265d45c8b57671199ad4f3b54f964f09cdddf38
+SHA512: 31fa6fe4f94a282294060e3f941887480d0e05d4f168622934d03dc5a7997c8c891783d2be4c4a273a42fb9e4161258c78846031947115555ccf5e77db421b35
+Description: 整理设置首页，集中收纳越狱插件，具体效果预览截图
+A12: 1
+Name: PrefNest设置归类-Rootless
+Author: mlgm
+Sponsor: Ai-小苹果™
+Icon: file:///Applications/Cydia.app/Sections/System.png
+Icon2: 16.png
+
 Package: com.dao.lockdown
 Architecture: iphoneos-arm64
 Version: 2.0
