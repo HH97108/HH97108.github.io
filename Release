@@ -1,15 +1,15 @@
-Origin: 橙C美式
-Label: 橙C美式
+Origin: HH97108 的源
+Label: HH97108 的源
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: 橙C美式
+Description: HH97108 的越狱软件源
 Support: https://HH97108.github.io/HH97108.github.io/
 MD5Sum:
- ff3d1ffdf25f7ffa990bdd3f012973b4  56822 Packages
- cc7fbb32dbb5f2531fe7bc5a4bc1d5e4  23219 Packages.gz
+ c81422fd6d88990b1d8f5b1c46115754  55858 Packages
+ ac7a7bb6ac465a209746a18585f74b75  22878 Packages.gz
 SHA256:
- 1443eed9c00f4e5f56ea116589eaec0b4d8e6a42c303d0a8d83455ea530fbc7e  56822 Packages
- 2a16b70fc6a289ba22c0b2d0b48565abc385fd0432370c965723308d36401eab  23219 Packages.gz
+ 9abd3168a354d3218b1962fc13b2fc94ce479430cd17c99924a44fbf0aa4744d  55858 Packages
+ 2ea60e7ea890c91cc2b702c490e07a327dc2bfa7c09b4f041e5bf4de136371ed  22878 Packages.gz

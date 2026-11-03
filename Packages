@@ -17,26 +17,6 @@ Name: AltList
 Depiction: https://moreinfo.thebigboss.org/moreinfo/depiction.php?file=altlistDp
 Author: opa334
 
-Package: byg.iosios.net.storeswitcher2
-Architecture: iphoneos-arm64
-Version: 1.1-4
-Section: 系统增强
-Maintainer: 搬运工
-Installed-Size: 460
-Depends: firmware (>= 15.0), mobilesubstrate
-Conflicts: com.lenglengyu.storeswitcher2-rootless
-Filename: debs/AppStore账号切换-Rootless_1.1-4_iphoneos-arm64.deb
-Size: 102380
-MD5sum: 7ade707f689cb75e4a96c78212f6896b
-SHA1: ce4ff032c5b61124ea0b0e890945ff27319d5cf6
-SHA256: 801dfee1160f1f2e52b04538252f881fb2ba28915a6c92d4075622a636de488d
-SHA512: f2121099a297a764b8e06b704240637800ce13fb7d1c27857b11060358794c7d96faf48563e8feed77571b25bab3fc69f9eccaf61f3091808cb460658a180b89
-Description: App Store帐户页面中快速切换帐号，如国区、美区。安装之后如果有冲突，安全模式，或者APP不能下载或更新，请缷载，然后重启手机！使用方法：长按App Store
-Name: AppStore账号切换-Rootless
-Author: Netsko
-Sponsor: 搬运工
-Icon: https://chinesebuilding.club/pic/cydia.png
-
 Package: byg.iosios.net.batterypercent.rootless
 Architecture: iphoneos-arm64
 Version: 1.1-1
