@@ -626,17 +626,17 @@ Icon2: 16.png
 
 Package: com.cydiabc.prefnest-rootless
 Architecture: iphoneos-arm64
-Version: 1.2.2
+Version: 1.2.3
 Section: Rootless
 Maintainer: mlgm
 Installed-Size: 888
 Depends: mobilesubstrate, firmware (>= 15.0), preferenceloader
-Filename: debs/com.cydiabc.prefnest-rootless_1.2.2_iphoneos-arm64.deb
-Size: 172740
-MD5sum: 0609cc3a33baa6f27c7d473fbd01cc8f
-SHA1: 3256c7aca1902971b8b432ba4ede83a411754d1e
-SHA256: ef0693f6c9bdf1254a96fe565265d45c8b57671199ad4f3b54f964f09cdddf38
-SHA512: 31fa6fe4f94a282294060e3f941887480d0e05d4f168622934d03dc5a7997c8c891783d2be4c4a273a42fb9e4161258c78846031947115555ccf5e77db421b35
+Filename: debs/com.cydiabc.prefnest-rootless_1.2.3_iphoneos-arm64.deb
+Size: 173656
+MD5sum: 0ed69bb1171e55e9b644dd320435eaed
+SHA1: 0eb7d0ba0c35431797aec266ea0b7cb12af708ac
+SHA256: 04e63cf1c4c1edbe39f19709a1b4df4402c4290bac835a862082d27f3d3e1184
+SHA512: 8e2143683a70b34f1d42fc82e241c4db38be61a702884dfc78219bde9d35179d2bd779d9c6f93860e9b5f5de8921dad87c375855f4d31569517bcf5bd498dc48
 Description: 整理设置首页，集中收纳越狱插件，具体效果预览截图
 A12: 1
 Name: PrefNest设置归类-Rootless
@@ -844,17 +844,17 @@ dev: opa334
 
 Package: com.snapbackup
 Architecture: iphoneos-arm64
-Version: 3.8.4
+Version: 3.8.11
 Section: Tweaks
 Maintainer: kanuo
 Installed-Size: 648
 Depends: firmware (>= 15.0), mobilesubstrate, apt, dpkg, coreutils, sed
-Filename: debs/com.snapbackup_3.8.4_iphoneos-arm64.deb
-Size: 1121004
-MD5sum: 27c87ca704ce9cbabdcd553de9109e98
-SHA1: 98d7232396bb24f8895ba364e6baabf60a4eb4f4
-SHA256: d3447ee71164d5ae7f82d8ea2b4e4ab673b776923a3cef94c3973355089bf1bb
-SHA512: 32a5b66342ff062c2e1d1e0dcc179a73e7458f0a3261c8b5aa237eefe84423546ba4ebfbcdfeb8eac2f0330e759d1d74dc45f2b3b2669f1b7877980d03a0b8f5
+Filename: debs/com.snapbackup_3.8.11_iphoneos-arm64.deb
+Size: 1253708
+MD5sum: 9d0d20683fc4025fe472096ce73c2c87
+SHA1: 5040852b6697090de4780d89526da5fa9501b93d
+SHA256: d87780cc2164a6877084b2fa4a60e121eb15118f5e3b4a46217b7c9762f9c9b7
+SHA512: f43997c37cada59982a6e35239b5cdc3d621aef9da969547d000489ca694a95d7c61e528c2a872eaccca240d922ae293a636948729268fc017fb13ba9045ece5
 Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐根适配）
  轻量、现代 UI 的越狱备份工具，专为解决重装、重越狱、迁移插件与配置的痛点而设计。
  .
@@ -871,6 +871,9 @@ Description: 越狱插件与配置备份恢复工具（rootless + RootHide 隐�
  - 可跳过已安装插件，独立入口批量选择本地 deb 加入 Sileo 队列
  - 失败插件可单独重试并补入原备份，支持查看与复制工具错误日志
  - 外观支持浅色、深色及跟随系统，自动记住选择
+ - root 扫描清理，覆盖隐根 AppGroup 缓存与日志，显示删除字节和可用空间变化
+ - 扫描系统目录占用，逐项批注可清理、需手动确认或仅查看，不明数据库禁止删除
+ - 独立文件扫描：从根目录逐层查看全手机容量，大小倒序，保留 Filza 定位且不提供删除
  - Sileo 内仍支持多选 deb、导入文件夹与 SnapBackup 待恢复任务
  - 使用 Sileo 原生安装队列；恢复插件与恢复配置为独立按钮
  - 可单独恢复备份配置，也可按 Sileo 任务核验安装结果后恢复对应配置
